@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ESRI.Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.esri.com/Desktop/AddIns">
+  <Name>GetDomains</Name>
+  <AddInID>e45cf344-4a96-4071-92cd-a6d7932a124a</AddInID>
+  <Description>Insert SOE package description here</Description>
+  <Version>1.0</Version>
+  <Author>gisadmin</Author>
+  <Company>Insert Company Name Here</Company>
+  <Date>2015-06-24T15:21:13</Date>
+  <Targets>
+    <Target name="Server" version="10.1" />
+  </Targets>
+  <AddIn language="CLR">
+    <ServerObjectType>
+      <Name>MapServer</Name>
+      <ExtensionTypes>
+        <ExtensionType id="GetDomains.GetDomains" library="GetDomains.dll" class="GetDomains.GetDomains">
+          <Name>GetDomains</Name>
+          <DisplayName>GetDomains</DisplayName>
+          <Description>Get Domain values for a featureclass</Description>
+          <Properties>
+            <Server>Venus</Server>
+            <Instance>5264</Instance>
+            <Database>gisamfmb</Database>
+            <Version>SDE.DEFAULT</Version>
+            <User>sdemgr</User>
+            <Password>sdemgr</Password>
+          </Properties>
+          <Info>
+            <DefaultWebCapabilities>ReportDomains,MakeDomainOptions</DefaultWebCapabilities>
+            <AllWebCapabilities>ReportDomains,MakeDomainOptions</AllWebCapabilities>
+            <SupportsREST>true</SupportsREST>
+            <SupportsSOAP>false</SupportsSOAP>
+            <hasManagerPropertiesConfigurationPane>false</hasManagerPropertiesConfigurationPane>
+          </Info>
+          <Resources />
+        </ExtensionType>
+      </ExtensionTypes>
+    </ServerObjectType>
+  </AddIn>
+</ESRI.Configuration>

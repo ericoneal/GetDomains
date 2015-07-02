@@ -1,0 +1,6 @@
+C:\SOE\GetDomains\GetDomains\obj\Debug\ResolveAssemblyReference.cache
+C:\SOE\GetDomains\GetDomains\bin\Debug\GetDomains.dll
+C:\SOE\GetDomains\GetDomains\bin\Debug\GetDomains.pdb
+C:\SOE\GetDomains\GetDomains\obj\Debug\GetDomains.dll
+C:\SOE\GetDomains\GetDomains\obj\Debug\GetDomains.pdb
+C:\SOE\GetDomains\GetDomains\bin\Debug\GetDomains.soe
